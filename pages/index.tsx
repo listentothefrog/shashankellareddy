@@ -24,8 +24,8 @@ const Home = () => {
                 Cuthburtson High
               </a>
               {""} and was introduced to coding when I was in 7th Grade. I am
-              really happy that you are willing to read more about me and who I
-              am. While you are here checkout my {""}
+              really happy that you are learning more about me and who I am.
+              While you are here checkout my some of my {""}
               <a
                 className="text-blue-600 hover:text-blue-500"
                 href=""
