@@ -6,7 +6,8 @@ Terraformingfrom my static HTML site, to Next.js/React. My personal website show
 
 - `pages/` - Static pages.
 - `pages/blog/*` - Blogs
-- `pages/home` - Metrics on my Github Profile
+- `pages/dashboard` - Metrics about me
+- `pages/index.tsx` - Home Route
 
 ## Setting up locally
 
