@@ -1,6 +1,6 @@
 ## shashankellareddy
 
-Terraformingfrom my static HTML site, to Next.js/React. My personal website showcasing my latest work and blogs.
+Terraformingfrom my static HTML site, to Next.js/React. My goal is to showcase all of my latest work and share my thoughts in the tech industry.
 
 ## Layout
 
