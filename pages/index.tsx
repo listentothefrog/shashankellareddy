@@ -43,6 +43,21 @@ const Home = () => {
                 learn more about me.
               </a>
             </p>
+            <div className="flex items-center justify-center px-2">
+              <a target="_blank" href="https://github.com/listentothefrog">
+                <button className="md:mr-10 mr-5 px-14 py-2 rounded-lg text-white hover:bg-gray-800 bg-black transition duration-300 ease-in-out">
+                  Github
+                </button>
+              </a>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/shashank-ellareddy-2b43aa200/"
+              >
+                <button className="px-14 py-2 rounded-lg text-white  hover:bg-blue-400  bg-blue-500 transition duration-300 ease-in-out">
+                  Linkedin
+                </button>
+              </a>
+            </div>
           </div>
         </div>
       </main>
