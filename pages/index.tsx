@@ -22,7 +22,7 @@ const Home = () => {
                 href="https://www.ucps.k12.nc.us/Domain/11"
                 target="_blank"
               >
-                Cuthburtson High
+                Cuthbertson High
               </a>
               {""} and was introduced to coding when I was in 7th Grade. I am
               really happy that you are learning more about me and who I am.
