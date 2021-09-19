@@ -12,7 +12,7 @@ Terraformingfrom my static HTML site, to Next.js/React. My goal is to showcase a
 ## Setting up locally
 
 ```bash
-    git remote add origin https://github.com/listentothefrog/shashankellareddy.git
+    git clone https://github.com/listentothefrog/shashankellareddy.git
     cd shashankellareddy
     npm install
     npm run dev
