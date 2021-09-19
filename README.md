@@ -4,10 +4,10 @@ Terraformingfrom my static HTML site, to Next.js/React. My goal is to showcase a
 
 ## Layout
 
-- `pages/` - Static pages.
+- [`pages/`](https://github.com/listentothefrog/shashankellareddy/tree/dev/pages) - Static pages.
 - `pages/blog/*` - Blogs
 - `pages/stats` - Metrics about me
-- `pages/index.tsx` - Home Route
+- [`pages/index.tsx`](https://github.com/listentothefrog/shashankellareddy/blob/dev/pages/index.tsx) - Home Route
 
 ## Setting up locally
 
