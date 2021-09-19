@@ -15,7 +15,7 @@ const Home = () => {
             <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black">
               Hello 👋
             </h1>
-            <p className="prose text-gray-600 dark:text-gray-400 mb-16">
+            <p className="prose text-gray-600 dark:text-gray-400">
               My name is Shashank, I am freshman at{" "}
               <a
                 className="text-blue-600 hover:text-blue-500 hover:underline"
@@ -43,7 +43,7 @@ const Home = () => {
                 learn more about me.
               </a>
             </p>
-            <div className="flex items-center justify-center px-2">
+            <div className="flex items-center justify-center px-2 mt-10">
               <a target="_blank" href="https://github.com/listentothefrog">
                 <button className="md:mr-10 mr-5 px-14 py-2 rounded-lg text-white hover:bg-gray-800 bg-black transition duration-300 ease-in-out">
                   Github
