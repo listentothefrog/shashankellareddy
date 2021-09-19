@@ -29,10 +29,10 @@ const Home = () => {
               While you are here checkout my some of my {""}
               <a
                 className="text-blue-600 hover:text-blue-500 hover:underline"
-                href=""
+                href="https://github.com/listentothefrog?tab=repositories"
                 target="_blank"
               >
-                projects on Github
+                repos on Github
               </a>
               {""} and {""}
               <a
