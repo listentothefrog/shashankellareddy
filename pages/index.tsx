@@ -18,7 +18,7 @@ const Home = () => {
             <p className="prose text-gray-600 dark:text-gray-400 mb-16">
               My name is Shashank, I am freshman at{" "}
               <a
-                className="text-blue-600 hover:text-blue-500"
+                className="text-blue-600 hover:text-blue-500 hover:underline"
                 href="https://www.ucps.k12.nc.us/Domain/11"
                 target="_blank"
               >
@@ -28,15 +28,15 @@ const Home = () => {
               really happy that you are learning more about me and who I am.
               While you are here checkout my some of my {""}
               <a
-                className="text-blue-600 hover:text-blue-500"
+                className="text-blue-600 hover:text-blue-500 hover:underline"
                 href=""
                 target="_blank"
               >
-                projects
+                projects on Github
               </a>
               {""} and {""}
               <a
-                className="text-blue-600 hover:text-blue-500"
+                className="text-blue-600 hover:text-blue-500 hover:underline"
                 href=""
                 target="_blank"
               >
