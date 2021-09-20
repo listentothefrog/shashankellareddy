@@ -7,6 +7,10 @@ const Home = () => {
       <Head>
         <title>Shashank Ellareddy - Coder, Gamer and Football Lover</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta
+          name="description"
+          content="Shashank Ellareddy - Code, Gamer and Football Lover"
+        />
       </Head>
       <Header />
       <main className="flex flex-col justify-center bg-white px-2">
@@ -21,6 +25,7 @@ const Home = () => {
                 className="text-blue-600 hover:text-blue-500 hover:underline"
                 href="https://www.ucps.k12.nc.us/Domain/11"
                 target="_blank"
+                rel="noreferrer"
               >
                 Cuthbertson High
               </a>
@@ -31,6 +36,7 @@ const Home = () => {
                 className="text-blue-600 hover:text-blue-500 hover:underline"
                 href="https://github.com/listentothefrog?tab=repositories"
                 target="_blank"
+                rel="noreferrer"
               >
                 repos on Github
               </a>
@@ -39,12 +45,17 @@ const Home = () => {
                 className="text-blue-600 hover:text-blue-500 hover:underline"
                 href=""
                 target="_blank"
+                rel="noreferrer"
               >
                 learn more about me.
               </a>
             </p>
             <div className="flex items-center justify-center px-2 mt-10">
-              <a target="_blank" href="https://github.com/listentothefrog">
+              <a
+                target="_blank"
+                href="https://github.com/listentothefrog"
+                rel="noreferrer"
+              >
                 <button className="md:mr-10 mr-5 px-14 py-2 rounded-lg text-white hover:bg-gray-800 bg-black transition duration-300 ease-in-out">
                   Github
                 </button>
@@ -52,6 +63,7 @@ const Home = () => {
               <a
                 target="_blank"
                 href="https://www.linkedin.com/in/shashank-ellareddy-2b43aa200/"
+                rel="noreferrer"
               >
                 <button className="px-14 py-2 rounded-lg text-white  hover:bg-blue-400  bg-blue-500 transition duration-300 ease-in-out">
                   Linkedin
