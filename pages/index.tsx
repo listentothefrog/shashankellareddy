@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header";
+import Image from "next/image";
 
 const Home = () => {
   return (
@@ -16,10 +17,20 @@ const Home = () => {
       <main className="flex flex-col justify-center bg-white px-2">
         <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
           <div>
-            <h1 className="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black">
-              Hello 👋
-            </h1>
-            <p className="prose text-gray-600 dark:text-gray-400">
+            <div className="flex items-center">
+              <Image
+                src="/shashank.jpg"
+                width={70}
+                height={70}
+                objectFit={"cover"}
+                alt="Shashank"
+                className="rounded-full"
+              />
+              <h1 className="font-bold text-3xl md:text-5xl tracking-tight ml-5  text-black">
+                Hello 👋
+              </h1>
+            </div>
+            <p className="prose text-gray-600 dark:text-gray-400 mt-5">
               My name is Shashank, I am freshman at{" "}
               <a
                 className="text-blue-600 hover:text-blue-500 hover:underline"
@@ -65,7 +76,7 @@ const Home = () => {
                 href="https://www.linkedin.com/in/shashank-ellareddy-2b43aa200/"
                 rel="noreferrer"
               >
-                <button className="px-14 py-2 rounded-lg text-white  hover:bg-blue-400  bg-blue-500 transition duration-300 ease-in-out">
+                <button className="px-14 py-2 rounded-lg text-white  hover:bg-blue-500  bg-blue-700 transition duration-300 ease-in-out">
                   Linkedin
                 </button>
               </a>
