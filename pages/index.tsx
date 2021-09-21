@@ -14,7 +14,7 @@ const Home = () => {
         />
       </Head>
       <Header />
-      <main className="flex flex-col justify-center bg-white px-2">
+      <main className="flex justify-center flex-col bg-white px-2">
         <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
           <div>
             <div className="flex items-center">
@@ -80,6 +80,34 @@ const Home = () => {
                   Linkedin
                 </button>
               </a>
+            </div>
+          </div>
+        </div>
+        <div className="max-w-full flex md:flex-row items-center justify-center">
+          <div className="flex items-center justify-center flex-row">
+            <div className="text-center mr-4">
+              <h1 className="text-2xl font-bold">3+</h1>
+              <p className="text-xs md:text-lg md:text-md text-gray-500 font-medium">
+                years of coding
+              </p>
+            </div>
+            <div className="text-center mr-4">
+              <h1 className="text-2xl font-bold">20+</h1>
+              <p className="text-xs md:text-lg md:text-md text-gray-500 font-medium">
+                github projects
+              </p>
+            </div>
+            <div className="text-center mr-4">
+              <h1 className="text-2xl font-bold">2</h1>
+              <p className="text-xs md:text-lg md:text-md text-gray-500 font-medium">
+                open-source project contributions
+              </p>
+            </div>
+            <div className="text-center mr-4">
+              <h1 className="text-2xl font-bold">22</h1>
+              <p className="text-xs md:text-lg md:text-md text-gray-500 font-medium">
+                github stars
+              </p>
             </div>
           </div>
         </div>
