@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Header from "../components/Header";
-import Image from "next/image";
 
 const Home = () => {
   return (
@@ -18,15 +17,7 @@ const Home = () => {
         <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
           <div>
             <div className="flex items-center">
-              <Image
-                src="/shashank.jpg"
-                width={70}
-                height={70}
-                objectFit={"cover"}
-                alt="Shashank"
-                className="rounded-full"
-              />
-              <h1 className="font-bold text-3xl md:text-5xl tracking-tight ml-5  text-black">
+              <h1 className="font-bold text-3xl md:text-5xl tracking-tight text-black">
                 Hello 👋
               </h1>
             </div>
@@ -108,6 +99,36 @@ const Home = () => {
               <p className="text-xs md:text-lg md:text-md text-gray-500 font-medium">
                 github stars
               </p>
+            </div>
+          </div>
+        </div>
+        <div className="max-w-full flex md:flex-row items-center justify-center mt-20">
+          <div className="flex items-center justify-center flex-row">
+            <div className="mr-4">
+              <h1 className="text-center text-3xl md:text-4xl font-bold">
+                Technologies that I love using
+              </h1>
+              <div className="flex md:flex-row flex-col items-center justify-center">
+                <li className="font-medium text-gray-500 text-xl text-center mt-10 hover:underline">
+                  <a href="https://github.com/facebook/react">React</a>
+                </li>
+                <li className="font-medium text-gray-500 text-xl text-center mt-10 list ml-4 hover:underline">
+                  <a href="https://github.com/vercel/next.js">NextJs</a>
+                </li>
+                <li className="font-medium text-gray-500 text-xl text-center mt-10 list ml-4 hover:underline">
+                  <a href="https://github.com./microsoft/typescript">
+                    Typescript
+                  </a>
+                </li>
+                <li className="font-medium text-gray-500 text-xl text-center mt-10 list ml-4 hover:underline">
+                  <a href="https://github.com/firebase">Firebase</a>
+                </li>
+                <li className="font-medium text-gray-500 text-xl text-center mt-10 list ml-4 hover:underline">
+                  <a href="https://github.com/tailwindlabs/tailwindcss">
+                    TailwindCSS
+                  </a>
+                </li>
+              </div>
             </div>
           </div>
         </div>
