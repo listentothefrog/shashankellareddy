@@ -9,7 +9,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Shashank Ellareddy - Code, Gamer and Football Lover"
+          content="Shashank Ellareddy - Coder and Football Lover"
         />
       </Head>
       <Header />
