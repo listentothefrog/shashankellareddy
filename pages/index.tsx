@@ -74,58 +74,34 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-full flex md:flex-row items-center justify-center">
-          <div className="flex items-center justify-center flex-row">
-            <div className="text-center mr-4">
-              <h1 className="text-2xl font-bold">3+</h1>
-              <p className="text-xs md:text-lg md:text-md text-gray-500 font-medium">
-                years of coding
-              </p>
-            </div>
-            <div className="text-center mr-4">
-              <h1 className="text-2xl font-bold">20+</h1>
-              <p className="text-xs md:text-lg md:text-md text-gray-500 font-medium">
-                github projects
-              </p>
-            </div>
-            <div className="text-center mr-4">
-              <h1 className="text-2xl font-bold">2</h1>
-              <p className="text-xs md:text-lg md:text-md text-gray-500 font-medium">
-                open-source project contributions
-              </p>
-            </div>
-            <div className="text-center mr-4">
-              <h1 className="text-2xl font-bold">27</h1>
-              <p className="text-xs md:text-lg md:text-md text-gray-500 font-medium">
-                github stars
-              </p>
-            </div>
-          </div>
-        </div>
         <div className="max-w-full flex md:flex-row items-center justify-center mt-20">
           <div className="flex items-center justify-center flex-row">
             <div className="mr-4">
               <h1 className="text-center text-3xl md:text-4xl font-bold">
                 Technologies that I love using
               </h1>
+              <p className="text-center p-4 text-gray-500">
+                Here some my favirote technologies and languages that I like
+                using for my projects.
+              </p>
               <div className="flex md:flex-row flex-col items-center justify-center">
-                <li className="font-medium text-gray-500 text-xl text-center mt-10 hover:underline">
+                <li className="font-medium text-gray-500 text-xl text-center mt-5 sm:mt-3 hover:underline">
                   <a href="https://github.com/facebook/react">React</a>
                 </li>
-                <li className="font-medium text-gray-500 text-xl text-center mt-10 list ml-4 hover:underline">
+                <li className="font-medium text-gray-500 text-xl text-center mt-5 sm:mt-3 list ml-4 hover:underline">
                   <a href="https://github.com/vercel/next.js">NextJs</a>
                 </li>
-                <li className="font-medium text-gray-500 text-xl text-center mt-10 list ml-4 hover:underline">
+                <li className="font-medium text-gray-500 text-xl text-center mt-5 sm:mt-3 list ml-4 hover:underline">
                   <a href="https://github.com./microsoft/typescript">
                     Typescript
                   </a>
                 </li>
-                <li className="font-medium text-gray-500 text-xl text-center mt-10 list ml-4 hover:underline">
+                <li className="font-medium text-gray-500 text-xl text-center mt-5 sm:mt-3 list ml-4 hover:underline">
                   <a href="https://github.com/firebase">Firebase</a>
                 </li>
-                <li className="font-medium text-gray-500 text-xl text-center mt-10 list ml-4 hover:underline">
+                <li className="font-medium text-gray-500 text-xl text-center mt-5 sm:mt-3 list ml-4 hover:underline">
                   <a href="https://github.com/tailwindlabs/tailwindcss">
-                    TailwindCSS
+                    Tailwind
                   </a>
                 </li>
               </div>
