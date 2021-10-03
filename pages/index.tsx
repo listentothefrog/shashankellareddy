@@ -13,7 +13,6 @@ const Home = () => {
           content="Shashank Ellareddy - Coder and Football Lover"
         />
       </Head>
-      <Header />
       <main className="flex justify-center flex-col bg-white px-2">
         <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
           <div>
