@@ -95,7 +95,7 @@ const Home = () => {
               </p>
             </div>
             <div className="text-center mr-4">
-              <h1 className="text-2xl font-bold">22</h1>
+              <h1 className="text-2xl font-bold">27</h1>
               <p className="text-xs md:text-lg md:text-md text-gray-500 font-medium">
                 github stars
               </p>
