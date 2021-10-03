@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header";
+import Timeline from "../components/Timeline";
 
 const Home = () => {
   return (
@@ -74,7 +75,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="max-w-full flex md:flex-row items-center justify-center mt-20">
+        <div className="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
+          <Timeline />
+        </div>
+        <div className="max-w-full flex md:flex-row items-center justify-center mt-5 sm:mt-10">
           <div className="flex items-center justify-center flex-row">
             <div className="mr-4">
               <h1 className="text-center text-3xl md:text-4xl font-bold">
