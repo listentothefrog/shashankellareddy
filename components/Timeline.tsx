@@ -24,7 +24,7 @@ const TimelineTitle = (props: any) => {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <circle cx="6" cy="6" r="5.5" stroke="#47C87D" />
+          <circle cx="6" cy="6" r="5.5" stroke="#ff6347" />
         </svg>
 
         <p className="font-medium text-gray-900 dark:text-gray-100 ml-3">
